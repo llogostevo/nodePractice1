@@ -1,5 +1,7 @@
-// take input from a prompt and store it in the variable input
+// use the library prompt-sync (install from NPM first) 
 const prompt = require('prompt-sync')();
+
+// take input from a prompt and store it in the variable name
 
 const name = prompt('What is your name?');
 
