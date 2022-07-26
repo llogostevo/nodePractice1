@@ -9,5 +9,6 @@ console.log(`hello ${name}`);
 console.log(`the letters of your name, ${name}, are:`)
 // for loop to cycle through the number of letters in the name and output the number and letter
 for (let i=0; i<name.length; i++) {
+    // use of i+1 as string starts at 0
     console.log(`${i+1} : ${name[i]}`)
 }
